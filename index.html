@@ -19,16 +19,16 @@
     </style>
 </head>
 <body class="font">
-       <header class="mx-auto max-w-[580px] lg:max-w-[1170px] mt-12">
+       <header class="mx-auto lg:max-w-[1170px] mt-12">
         <nav class="mb-[20px]">
             <div class="navbar">
-                <div class="navbar-start">
+                <div class="w-[107px] lg:w-[160px] navbar-start">
 
-                   <h1 class="text-3xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</h1> 
+                   <h1 class="ml-3 text-3xl font-extrabold ">Hockey<span class="text-[#FF4240]">’</span>s</h1> 
                   
                 </div>
                 <div class="navbar-center">
-                    <ul  class=" flex gap-10">
+                    <ul  class="hidden lg:flex ml-60 gap-10">
                         <li><a class="text-[#FF4240]">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -36,8 +36,8 @@
                         <li><a>Contact</a></li>
                       </ul>
                 </div>
-                <div class="navbar-end">
-                  <button class="btn btn-ghost btn-circle">
+                <div class="navbar-end ml-80 lg:ml-48">
+                  <button class="hidden lg:flex btn btn-ghost btn-circle">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clip-path="url(#clip0_5_6)">
@@ -59,10 +59,10 @@
         </nav>
         <div class="banner ">
              <div class="bgi relative">
-                <div class="carousel w-full">
+                <div class="carousel lg:flex w-full">
                     <div id="slide1" class="carousel-item relative w-full">
-                      <img src="Images/1.png" class="mx-5 h-[300px] lg:h-[550px] w-full" />
-                      <div class="absolute gap-2 flex left-[250px] lg:left-12 top-[220px] lg:top-[460px]">
+                      <img src="Images/1.png" class="mx-5 h-[300px] lg:h-[550px]  w-full" />
+                      <div class="absolute gap-2 lg:flex left-[250px] lg:left-12 top-[220px] lg:top-[460px]">
                         <a href="#slide4" class="btn border-0 btn-circle bg-black text-white">❮</a> 
                         <a href="#slide2" class="btn border-0 btn-circle bg-black text-white">❯</a>
                       </div>
@@ -75,7 +75,7 @@
                       </div>
                     </div> 
                 </div>
-                <div class="mx-4 mt-4 lg:absolute bg-black left-[572px] top-[353px] border-0 rounded-2xl p-8 w-[566px] h-[165px] text-white" >
+                <div class="mx-4 mt-4  lg:absolute bg-black lg:left-[572px] lg:top-[353px] border-0 rounded-2xl p-8 w-[566px] h-[165px] text-white" >
                      <h1 class="font-bold text-xl mb-2">Meet all the heroes from the field</h1>
                      <h1 class="opacity-60">grab your opportunity and meet heroes</h1>
                 </div>    
@@ -84,7 +84,48 @@
         </div>   
 
        </header>
-       <main>
+       <main class="mx-auto lg:max-w-[1170px]">
+        <!-- pro hockey club -->
+        <section class="mt-[60px] lg:mt-[70px]">
+            <div class="border-dashed border-[1px] h-[200px] p-8">
+               <h1 class="text-2xl lg:text-3xl font-extrabold ml-24 lg:flex justify-center ">Professional Hockeys Club</h1>
+               <p class="mt-6 text-[#0d0d1263] ml-8 lg:text-center lg:ml-16">Hockey clubs are organizations or teams dedicated  to the sport of hockey. </p>
+            </div>
+            <div class="mt-[30px] ml-40  lg:mt[80px] grid grid-cols-1 lg:grid-cols-4 ">
+                <div class="mb-8">
+                    <div class="radial-progress ml-8 text-red-500 rotate-180" style="--value:87;" role="progressbar"><span class="text-black rotate-180 font-extrabold">87%</span></div>
+                    <h1 class="mt-2 ml-3 lg:mt-6 font-extrabold text-xl">Prayer Facility</h1>
+                    <p class="mt-4 ">
+                        It's important to note that <br> the specifics can vary clubs
+
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress ml-8  rotate-180 text-green-500" style="--value:95;" role="progressbar"><span class="text-black rotate-180 font-extrabold">95%</span></div>
+                    <h1 class="mt-2  lg:mt-6 font-extrabold text-xl">Experienced Coach</h1>
+                    <p class="mt-4">
+                        It's important to note that <br> the specifics can vary clubs
+
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress ml-8  rotate-180 text-yellow-500" style="--value:90;" role="progressbar"><span class="text-black rotate-180 font-extrabold">90%</span></div>
+                    <h1 class="mt-2  lg:mt-6 font-extrabold text-xl">Senior Player</h1>
+                    <p class="mt-4 ">
+                        It's important to note that <br> the specifics can vary clubs
+
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress ml-8  rotate-180 text-blue-500" style="--value:80;" role="progressbar"><span class="text-black rotate-180 font-extrabold">80%</span></div>
+                    <h1 class="mt-2  lg:mt-6 font-extrabold text-xl">Training Ground</h1>
+                    <p class="mt-4 ">
+                        It's important to note that <br> the specifics can vary clubs
+
+                    </p>
+                </div>
+            </div>
+        </section>
 
        </main>
        <footer>
